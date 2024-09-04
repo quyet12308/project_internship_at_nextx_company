@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassava Disease Detection - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="home-container">
+        <h2>Upload Cassava Plant Image</h2>
+        <form id="uploadForm">
+            <label for="imageUpload">Choose an image:</label>
+            <input type="file" id="imageUpload" name="imageUpload" accept="image/*" required>
+            <button type="submit">Analyze</button>
+        </form>
+        <div id="resultContainer"></div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
